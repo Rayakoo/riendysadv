@@ -8,8 +8,8 @@ export default function PortfolioMain() {
     "/neon2.jpg",
     "/exterior3.jpg",
     "/furniture7.jpg",
-    "/led1.jpg",
-    "/timbul2.jpg",
+    "/neon6.jpg",
+    "/meteor.jpg",
     "/exterior1.jpg",
   ];
   const [currentPortfolio, setCurrentPortfolio] = useState(0);
