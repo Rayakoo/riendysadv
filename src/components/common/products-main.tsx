@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const products = [
 	{
-		img: "/neon1.jpg",
+		img: "/Neon1.jpg",
 		title: "Neon Box",
 		desc: "Neon box custom untuk branding usaha Anda, dengan pencahayaan LED yang terang dan desain menarik.",
 	},
