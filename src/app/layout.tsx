@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/common/main-navbar";
 import Footer from "@/components/common/footer";
 import WhatsappBtn from "@/components/common/whatsapp-btn";
-import AnnouncementBar from "@/components/common/announcement";
+
 
 
 const geistSans = Geist({

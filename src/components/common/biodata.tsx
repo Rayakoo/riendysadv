@@ -39,8 +39,13 @@ function useCountUp(target: number, duration = 1200) {
 }
 
 export default function BiodataSection() {
-  // Animate each stat
-  const animated = stats.map((s) => useCountUp(s.value, 1200));
+  // Panggil useCountUp satu per satu, bukan di .map()
+  const count0 = useCountUp(stats[0].value, 1200);
+  const count1 = useCountUp(stats[1].value, 1200);
+  const count2 = useCountUp(stats[2].value, 1200);
+  const count3 = useCountUp(stats[3].value, 1200);
+  const count4 = useCountUp(stats[4].value, 1200);
+  const count5 = useCountUp(stats[5].value, 1200);
 
   return (
     <section className="relative w-full min-h-[70vh] flex items-center justify-center overflow-hidden">
@@ -76,14 +81,42 @@ export default function BiodataSection() {
         </div>
         {/* Right: Stats */}
         <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-10 text-center">
-          {stats.map((stat, idx) => (
-            <div key={stat.label} className="flex flex-col items-center justify-center">
-              <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
-                {animated[idx]}
-              </span>
-              <span className="text-lg md:text-xl text-white/80 mt-1">{stat.label}</span>
-            </div>
-          ))}
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count0}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[0].label}</span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count1}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[1].label}</span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count2}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[2].label}</span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count3}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[3].label}</span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count4}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[4].label}</span>
+          </div>
+          <div className="flex flex-col items-center justify-center">
+            <span className="text-4xl md:text-5xl font-extrabold text-white drop-shadow-lg">
+              {count5}
+            </span>
+            <span className="text-lg md:text-xl text-white/80 mt-1">{stats[5].label}</span>
+          </div>
         </div>
       </div>
     </section>
