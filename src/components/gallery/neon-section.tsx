@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const neonImages = [
-  "/neon1.jpg", "/neon2.jpg", "/neon3.jpg", "/neon4.jpg", "/neon5.jpg",
+  "/Neon1.jpg", "/neon2.jpg", "/neon3.jpg", "/neon4.jpg", "/neon5.jpg",
   "/neon6.jpg", "/neon7.jpg", "/neon8.jpg", "/neon9.jpg", "/neon10.jpg",
   "/neon11.jpg", "/neon12.jpg", "/neon13.jpg", "/neon14.jpg", "/neon15.jpg",
     "/neon16.jpg", "/neon17.jpg", "/neon18.jpg", "/neon19.jpg", "/neon20.jpg",
