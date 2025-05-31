@@ -32,7 +32,7 @@ const socialLinks = [
 //     ),
 //   },
   {
-    href: "https://www.instagram.com/riendys_adv?igsh=bmZ2a2JrMW5waHBq",
+    href: "https://www.instagram.com/riendys_adv?igsh=MWw2d3pxODBsc2JmMw==",
     label: "Instagram",
     icon: (
       <svg
