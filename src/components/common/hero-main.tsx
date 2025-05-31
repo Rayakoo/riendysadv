@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 export default function HeroMain() {
-  const images = ["/exterior2.jpg", "/neon19.jpg", "/neon16.jpg"];
+  const images = ["/tim5.jpg", "/tim6.jpg", "/tim7.jpg"];
   const [currentImage, setCurrentImage] = useState(0);
 
   return (

@@ -5,6 +5,9 @@ export default function VideoMain() {
   const videoList = [
     "/video1.mp4",
     "/video2.mp4",
+    "/video6.mp4",
+    "/video4.mp4", 
+    
     // tambahkan video lain jika ada
   ];
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -12,7 +15,7 @@ export default function VideoMain() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentVideo((prev) => (prev + 1) % videoList.length);
-    }, 6000);
+    }, 26000);
     return () => clearInterval(interval);
   }, [videoList.length]);
 

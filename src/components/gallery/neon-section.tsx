@@ -10,6 +10,11 @@ const neonImages = [
   "/neon21.jpg", "/neon22.jpg", "/neon23.jpg", "/neon24.jpg", "/neon25.jpg",
   "/neon26.jpg", "/neon27.jpg", "/neon28.jpg", "/neon29.jpg", "/neon30.jpg",
   "/neon31.jpg", "/neon32.jpg", "/neon33.jpg", "/neon34.jpg", "/neon35.jpg",
+  "/neon36.jpg", "/neon37.jpg", "/neon38.jpg", "/neon39.jpg", "/neon40.jpg",
+  "/neon41.jpg", "/neon42.jpg", "/neon43.jpg", "/neon44.jpg", "/neon45.jpg",
+  "/neon46.jpg", "/neon47.jpg", "/neon48.jpg", "/neon49.jpg", "/neon50.jpg",
+  "/neon51.jpg", "/neon52.jpg", "/neon53.jpg", "/neon54.jpg", "/neon55.jpg",
+  "/neon56.jpg", 
   // tambahkan gambar lain jika ada
 ];
 

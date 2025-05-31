@@ -19,8 +19,9 @@ export default function Home() {
     <div className="min-h-screen bg-black text-white relative">
       <HeroMain />
       <VideoMain />
-      <ServicesMain />
       <ProductsMain />
+      <ServicesMain />
+      
       <PortfolioMain />
       <AboutMain />
       <ContactMain />
