@@ -7,7 +7,7 @@ export default function NeonboxProduct() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="flex-1">
           <Image
-            src="/neon1.jpg"
+            src="/Neon1.jpg"
             alt="Neon Box"
             width={500}
             height={350}
