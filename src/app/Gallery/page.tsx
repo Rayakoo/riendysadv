@@ -1,4 +1,4 @@
-"use client";
+s"use client";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,12 +23,12 @@ export default function GalleryPage() {
         <p className="text-center mb-16 text-gray-300 max-w-2xl mx-auto">
           Berikut beberapa galeri karya project{" "}
           <a
-            href="https://rajaneonboxmalang.com"
+            href="https://riendysadv.com"
             className="text-white underline hover:text-gray-300 transition"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Raja Neon Box Malang
+            Riendys Advertising
           </a>
           .
         </p>
