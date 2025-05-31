@@ -5,12 +5,12 @@ import { useState } from "react";
 const acrylicImages = [
   "/acrylic1.jpg", "/acrylic2.jpg", "/acrylic3.jpg", "/acrylic4.jpg", "/acrylic5.jpg",
   "/acrylic6.jpg", "/acrylic7.jpg", "/acrylic8.jpg", "/acrylic9.jpg", "/acrylic10.jpg",
- 
   // tambahkan gambar lain jika ada
 ];
 
 export default function AcrylicSection() {
   const [visible, setVisible] = useState(10);
+  const [preview, setPreview] = useState<string | null>(null);
 
   const handleShowMore = () => {
     setVisible((prev) => Math.min(prev + 5, acrylicImages.length));
@@ -25,9 +25,10 @@ export default function AcrylicSection() {
         {acrylicImages.slice(0, visible).map((src, idx) => (
           <div
             key={idx}
-            className="rounded-2xl overflow-hidden shadow-2xl bg-white border border-gray-200 transition-transform hover:scale-105"
+            className="rounded-2xl overflow-hidden shadow-2xl bg-white border border-gray-200 transition-transform hover:scale-105 cursor-pointer"
             data-aos="fade-up"
             data-aos-delay={idx % 4 * 80}
+            onClick={() => setPreview(src)}
           >
             <Image
               src={src}
@@ -47,6 +48,29 @@ export default function AcrylicSection() {
           >
             Lihat Lainnya
           </button>
+        </div>
+      )}
+      {/* Modal Preview */}
+      {preview && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80"
+          onClick={() => setPreview(null)}
+        >
+          <div className="relative max-w-full max-h-full p-4">
+            <img
+              src={preview}
+              alt="Preview"
+              className="max-w-[90vw] max-h-[90vh] rounded-xl shadow-2xl"
+              onClick={e => e.stopPropagation()}
+            />
+            <button
+              className="absolute top-2 right-2 bg-black/70 text-white rounded-full w-9 h-9 flex items-center justify-center text-2xl"
+              onClick={() => setPreview(null)}
+              aria-label="Close"
+            >
+              ×
+            </button>
+          </div>
         </div>
       )}
     </section>
