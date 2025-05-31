@@ -99,26 +99,27 @@ export default function Navbar() {
             </span>
             {/* Social icons for mobile (hamburger) */}
             <div className="flex md:hidden items-center gap-2 ml-2">
-              <a
-                href="https://www.instagram.com/riendys_adv"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-                className="w-8 h-8 flex items-center justify-center rounded-full border border-yellow-100 text-yellow-100 hover:bg-yellow-100 hover:text-[#191918] transition"
-              >
-                <svg
-                  width="18"
-                  height="18"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  viewBox="0 0 24 24"
-                >
-                  <rect x="3" y="3" width="18" height="18" rx="5" />
-                  <circle cx="12" cy="12" r="4" />
-                  <circle cx="17" cy="7" r="1" />
-                </svg>
-              </a>
+             <a
+  href="instagram://user?username=riendys_adv"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Instagram"
+  className="w-8 h-8 flex items-center justify-center rounded-full border border-yellow-100 text-yellow-100 hover:bg-yellow-100 hover:text-[#191918] transition"
+>
+  <svg
+    width="18"
+    height="18"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    viewBox="0 0 24 24"
+  >
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17" cy="7" r="1" />
+  </svg>
+</a>
+
               <a
                 href="https://wa.me/6285738775587?text=halo%20riendysadv%20bantu%20saya%20dalam%20pemesanan"
                 target="_blank"
