@@ -6,7 +6,7 @@ export default function AboutMain() {
     <section className="py-20 px-6 bg-black relative overflow-hidden" data-aos="fade-up">
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
-          src="/kencana.jpg"
+          src="/neon18.jpg"
           alt="Background"
           layout="fill"
           objectFit="cover"
