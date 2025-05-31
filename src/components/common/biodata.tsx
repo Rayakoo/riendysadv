@@ -4,11 +4,11 @@ import Image from "next/image";
 
 const stats = [
   { value: 2013, label: "Berdiri sejak" },
-  { value: 214, label: "Custom akrilik" },
-  { value: 268, label: "Pelanggan" },
+  { value: 614, label: "Custom akrilik" },
+  { value: 568, label: "Pelanggan" },
   { value: 945, label: "Digital Printing" },
-  { value: 5, label: "Tim Produksi" },
-  { value: 89, label: "Proyek Selesai" },
+  { value: 8, label: "Tim Produksi" },
+  { value: 1289, label: "Proyek Selesai" },
 ];
 
 function useCountUp(target: number, duration = 1200) {
