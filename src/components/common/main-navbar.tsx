@@ -100,7 +100,7 @@ export default function Navbar() {
             {/* Social icons for mobile (hamburger) */}
             <div className="flex md:hidden items-center gap-2 ml-2">
               <a
-                href="https://www.instagram.com/riendys_adv?igsh=bmZ2a2JrMW5waHBq"
+                href="https://www.instagram.com/riendys_adv"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
