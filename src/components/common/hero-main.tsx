@@ -11,13 +11,27 @@ export default function HeroMain() {
       className="w-full min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-6 py-20 max-w-7xl mx-auto"
       data-aos="fade-up"
     >
-      <div className="flex-1 flex flex-col justify-center items-start">
+       
+      <div className="flex-1 flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+          <div className="flex items-center gap-4 mb-4">
+                  <span className="flex items-center">
+                    <Image
+                      src="/logo.jpg"
+                      alt="Logo"
+                      width={340}
+                      height={120}
+                      className="object-contain"
+                      priority
+                    />
+                  </span>
+                 
+          </div>
           <span className="text-white">Solusi Advertising</span>
           <br />
           <span className="text-gray-400">Untuk Bisnis Anda</span>
         </h1>
-        <p className="text-lg text-gray-300 mb-8 max-w-lg">
+        <p className="text-lg text-gray-300 mb-8 max-w-lg text-center ">
           Riendys Advertising siap membantu usaha Anda tampil menonjol dengan
           berbagai produk promosi seperti neon box, signage, acrylic, furniture
           custom, dan banyak lagi. Percayakan kebutuhan branding dan promosi Anda

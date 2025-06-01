@@ -44,7 +44,7 @@ export default function CustomerServiceContact() {
           <div className="flex items-center gap-2 mt-2">
             <span className="text-gray-300">Cek juga sosial media kami di sini:</span>
             <a
-              href="https://www.instagram.com/riendys_adv?igsh=bmZ2a2JrMW5waHBq"
+              href="https://www.instagram.com/riendys_adv?igsh=MWw2d3pxODBsc2JmMw=="
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center"
