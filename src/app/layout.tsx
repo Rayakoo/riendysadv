@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Riendys Advertising - Neonbox & Acrylic Malang",
-    template: "%s | Riendys Advertising",
+    template: "%s | Riendys Advertising - Neonbox & Acrylic Malang",
   },
   description:
     "Riendys Advertising adalah perusahaan yang berfokus pada solusi branding dan promosi. Kami menyediakan neonbox, acrylic, laser cut, furniture, serta desain interior dan eksterior di Malang.",
